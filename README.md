@@ -33,6 +33,7 @@ Sync cloud: **https://note.flyingtang.cn** (built into the packaged app).
 - Screenshot (region), color picker, ruler, pin image
 - Global shortcuts (work even when the app is in the background)
 - Themes and editor font size
+- In-app auto-update (Gitee, then GitHub; official hosts last)
 
 ### Account & privacy
 - Optional cloud account; local-only mode if you never sign in
@@ -40,7 +41,6 @@ Sync cloud: **https://note.flyingtang.cn** (built into the packaged app).
 
 ### Not included (by design)
 - In-app custom sync server (official cloud only)
-- Built-in auto-update plugin (download a new installer from Gitee/GitHub)
 - Evernote-style web clipper / shared team workspaces as a first-class product
 
 ---

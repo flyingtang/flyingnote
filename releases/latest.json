@@ -1,19 +1,19 @@
 {
   "version": "0.1.2",
   "notes": "FlyingNote 0.1.2 — see release notes on Gitee/GitHub.",
-  "pub_date": "2026-08-22T14:33:53.181Z",
+  "pub_date": "2026-08-23T07:53:23.068Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "",
       "url": "https://gitee.com/flyingtang/flyingnote/releases/download/v0.1.2/FlyingNote_0.1.2_x64-setup.exe"
     },
     "darwin-aarch64": {
-      "signature": "",
-      "url": "https://gitee.com/flyingtang/flyingnote/releases/download/v0.1.2/FlyingNote_0.1.2_aarch64.dmg"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb1o2dUF1bHRaUHpodTJNZWNOcmhNcHNSVU42Z0JwWGl6cjJESC9tcENkaFQ5V3dYbUNWbWhTODBIWVBkSXVEQlgwK3lOQlBDcW5KaFp6NmRiclhMN1ZJb0J0RGVJVmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NDcxMjUwCWZpbGU6Rmx5aW5nTm90ZS5hcHAudGFyLmd6CjVLL3JXTjVLaURlV0xzTUhtK1c5NXdMbXlKL3BITWlud0Y3VDN6VHB4QW9XUHNEUU9PKzNtMXhadDZvUEVTUWlzRDFqUWJKYmVOb1NiY2VYeC96K0N3PT0K",
+      "url": "https://gitee.com/flyingtang/flyingnote/releases/download/v0.1.2/FlyingNote.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "",
-      "url": "https://gitee.com/flyingtang/flyingnote/releases/download/v0.1.2/FlyingNote_0.1.2_x64.dmg"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb1o2dUF1bHRaUHpodTJNZWNOcmhNcHNSVU42Z0JwWGl6cjJESC9tcENkaFQ5V3dYbUNWbWhTODBIWVBkSXVEQlgwK3lOQlBDcW5KaFp6NmRiclhMN1ZJb0J0RGVJVmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NDcxMjUwCWZpbGU6Rmx5aW5nTm90ZS5hcHAudGFyLmd6CjVLL3JXTjVLaURlV0xzTUhtK1c5NXdMbXlKL3BITWlud0Y3VDN6VHB4QW9XUHNEUU9PKzNtMXhadDZvUEVTUWlzRDFqUWJKYmVOb1NiY2VYeC96K0N3PT0K",
+      "url": "https://gitee.com/flyingtang/flyingnote/releases/download/v0.1.2/FlyingNote.app.tar.gz"
     },
     "linux-x86_64": {
       "signature": "",

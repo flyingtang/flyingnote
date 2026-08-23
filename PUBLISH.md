@@ -32,6 +32,8 @@ npm run release -- --init
 
 也可把同一份 token 放在 **mycap 仓库根** 的 `publish-open.local.env`，飞笺与 FlyingTerm 共用。
 
+自动更新签名私钥在 `src-tauri/.updater/flyingnote.key`（勿提交）。首次生成：`npm run keys:refresh`。没有私钥时 `publish-open` 会拒绝打包。
+
 ### 2. 日常发布
 
 ```powershell

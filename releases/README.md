@@ -12,7 +12,7 @@ open/releases/
 
 Large binaries are **gitignored**. Only `latest.json` (and docs) should be committed so clones stay small. Upload installers as **Release assets**.
 
-FlyingNote desktop currently **does not** ship a Tauri auto-updater. `latest.json` is still useful as a download index for the website and mirrors.
+FlyingNote desktop auto-update reads `latest.json` (Gitee, then GitHub; official API hosts last). Upload installers as **Release assets**.
 
 Helper (from `cloudnote/desktop`):
 
