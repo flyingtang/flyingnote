@@ -1,10 +1,10 @@
 {
   "version": "0.1.2",
   "notes": "FlyingNote 0.1.2 — see release notes on Gitee/GitHub.",
-  "pub_date": "2026-08-26T12:36:11.730Z",
+  "pub_date": "2026-08-26T12:46:11.621Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb1o2dUF1bHRaUDBXMEhLT2pPcnltT3pnd3I1aXdvNEVHVDU5bTYza2N1T0NLTU1kMjkwWlB0cklXNzJPaVpPbStad21HMDRxZnJGYXRBNTJHRWFPVFgwRFhJMjZSMXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NzQ3NzcxCWZpbGU6Rmx5aW5nTm90ZV8wLjEuMl94NjQtc2V0dXAuZXhlCkl5UEJhaTZkSmhLcXlPWkYrMHNVVm9mWFp5R1gwdERTeG43WGZnT1BPNy8rVklXdDZuazQvTzFYeUhxdEZjT2xaR09jd1Vidis4YWN4OWh2NFNQZUNRPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTb1o2dUF1bHRaUDAyOFh1R21vTDRwL3Vna3FpNXlOci81S09SL1hmTE9VWVhpZG9oUk5HZU1Vd2dIeVdPcVFuMEpiRUpHbmduakVtTXI0ZTdRcS9wUXliUDVITW9ZREFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NzQ4MzcxCWZpbGU6Rmx5aW5nTm90ZV8wLjEuMl94NjQtc2V0dXAuZXhlCms4Um9BeWtjTW04T3NMbGxRUHZYa3hTUnRnNkp0UVA4WXR5Zm0xWkcwSHdoVkRReXlTU1p4alduNFVLL1Mxc3c0T2pCdzdZQWN5eUM0Y2VENXEyRER3PT0K",
       "url": "https://gitee.com/flyingtang/flyingnote/releases/download/v0.1.2/FlyingNote_0.1.2_x64-setup.exe"
     },
     "darwin-aarch64": {
