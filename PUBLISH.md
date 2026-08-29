@@ -25,14 +25,16 @@ npm run release -- --init
 
 | 项 | 含义 |
 |---|---|
-| `OPEN_PUBLIC_DIR` | 公开仓本机克隆路径（相对当前目录；默认 `./flyingnote-public`，不存在会自动 clone） |
-| `GITHUB_REPO_URL` / `GITEE_REPO_URL` | 公开仓库地址 |
+| `FLYINGNOTE_OPEN_PUBLIC_DIR` | 公开仓本机克隆路径（相对当前目录；默认 `./flyingnote-public`，不存在会自动 clone） |
+| `FLYINGNOTE_GITHUB_REPO_URL` / `FLYINGNOTE_GITEE_REPO_URL` | 公开仓库地址 |
 | `GH_TOKEN` 或 `GH_TOKEN_FILE` | GitHub token（`repo` 权限，上传 Release） |
 | `GITEE_TOKEN` 或 `GITEE_TOKEN_FILE` | Gitee token（上传 Release，可选） |
 
 也可把同一份 token 放在 **mycap 仓库根** 的 `publish-open.local.env`，飞笺与 FlyingTerm 共用。
 
-自动更新签名私钥在 `src-tauri/.updater/flyingnote.key`（勿提交）。首次生成：`npm run keys:refresh`。没有私钥时 `publish-open` 会拒绝打包。
+自动更新签名私钥在 `src-tauri/.updater/flyingnote.key`（勿提交）。首次生成：`npm run keys:refresh`。打包统一走 `tools/release-build.mjs`（`npm run build:win` / `npm run release`），会读该文件再 `tauri build`。没有私钥时拒绝打包。不要直接 `npx tauri build`。
+
+办公笔记用 **ONLYOFFICE Desktop Editors**：精简包依赖本机安装；完整包 `npm run build:win:office`（或 `WITH_OFFICE=1`）把引擎打进安装包。
 
 ### 2. 日常发布
 
@@ -55,7 +57,9 @@ git push 超时会自动重试。安装包**不进 git**。
 只要同步文档：`npm run open:publish -- --sync`  
 已打好包：`npm run release -- --skip-build`
 
-### 3. 和 FlyingTerm 一起发（先发飞笺）
+完整 monorepo 手册（含飞钥 / 飞遥）：`deploy/docs/PUBLISH-PUBLIC.md`。
+
+### 3. 和其它产品一起发（先发飞笺）
 
 安装包体积飞笺更小，远端超时更少。在 **mycap 根目录**：
 
@@ -65,7 +69,7 @@ git push 超时会自动重试。安装包**不进 git**。
 ./tools/publish-public.sh --only flyingnote
 ```
 
-会先跑 FlyingNote，成功后再跑 FlyingTerm。
+会按 FlyingNote → FlyingOTP → FlyingRemote → FlyingTerm 顺序跑。
 
 ### 4. Token
 
@@ -83,7 +87,7 @@ npm run release -- --init   # once
 npm run release             # or: npm run release -- --version 0.1.2
 ```
 
-From the mycap repo root, publish **FlyingNote first** (smaller) then FlyingTerm:
+From the mycap repo root, publish **FlyingNote → FlyingOTP → FlyingRemote → FlyingTerm**:
 
 ```bash
 ./tools/publish-public.sh --all
